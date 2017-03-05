@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/**** base ****/
+
+ h1 {
+     font-size:20px;
+ }
+ 
+ /**** panel ****/
+ 
+ .panel {
+     margin-bottom: 40px;
+ }
+ 
+ .from {
+     margin-bottom: 32px;
+ }
