@@ -15,12 +15,12 @@
   <%= form_for(@message) do |f| %>
     
     <div class="from">
-      <label for="name">名前:</label>
+      <label for="message_name">名前:</label>
       <%= f.text_field :name, class: "form-control" %>
     </div>
       
     <div class="from">
-      <label for="detail">内容:</label>
+      <label for="message_body">内容:</label>
       <%= f.text_area :body, class: "form-control" %>
     </div>
   
